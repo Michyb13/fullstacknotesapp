@@ -1,0 +1,50 @@
+.details-page {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+}
+
+.details-page label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.details-page input {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  width: 95%;
+  font-size: 1rem;
+}
+.details-page textarea {
+  order: 1px solid black;
+  padding: 9px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  width: 95%;
+  height: 250px;
+  font-size: 1rem;
+}
+
+.details-page button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.details-page button:hover {
+  background-color: #333;
+}
+
+.cross-icon {
+  font-size: 0.8rem;
+  margin-right: 5px;
+}

@@ -1,0 +1,29 @@
+.edit-form {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+}
+
+.edit-form button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 15%;
+  margin-right: 15px;
+}
+
+.edit-form button:hover {
+  background-color: #333;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.edit-form a {
+  color: white;
+  text-decoration: none;
+}

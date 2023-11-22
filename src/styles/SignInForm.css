@@ -1,0 +1,27 @@
+.signin-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.signin-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: black;
+}
+
+h4 {
+  margin-top: 20px;
+  color: black;
+}

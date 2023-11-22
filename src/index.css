@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  box-shadow: 0px 0px 2px black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+nav h1 {
+  font-size: 2rem;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+}
+
+.nav-actions h3 {
+  margin-left: 10px;
+  margin-right: 15px;
+  font-size: 1rem;
+}
+.nav-button {
+  border: 1px solid #000;
+  background-color: white;
+  color: #000;
+  font-weight: bold;
+  margin-right: 10px;
+  transition: all 0.25s ease-in;
+}
+
+.nav-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.note-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.note {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  mask-image: linear-gradient(180deg, #000 60%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-height: 150px;
+  min-width: 120px;
+  overflow: hidden;
+}
+
+.no-notes {
+  text-align: center;
+  opacity: 0.5;
+}
+
+.note h1 {
+  font-size: 18px;
+  margin: 0;
+  color: black;
+  font-weight: bold;
+}
+
+.note p {
+  color: black;
+  margin: 10px 0;
+  white-space: pre-line;
+}
+.note a {
+  text-decoration: none;
+}
+
+.add-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+
+.add-btn a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.form-details {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-field {
+  width: 90%;
+  padding: 13px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #333;
+}
+form a {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}

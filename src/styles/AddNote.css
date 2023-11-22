@@ -1,0 +1,60 @@
+.add-form {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+}
+
+.add-form a {
+  color: white;
+  text-decoration: none;
+}
+
+.add-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.title-input {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  width: 95%;
+  font-size: 1rem;
+}
+.content-input {
+  border: 1px solid black;
+  padding: 9px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  width: 95%;
+  height: 250px;
+  font-size: 1rem;
+}
+
+.add-form button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 15%;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.add-form button:hover {
+  background-color: #333;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
